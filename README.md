@@ -2,9 +2,9 @@
 
 This repository contains a solution to [cats vs dogs kaggle](https://www.kaggle.com/c/dogs-vs-cats) competition. The dataset
 contains about 25,000 pictures of cats and dogs and an algorithm to be developed should classify them correctly.
-I used a cnn architecture similar to the AlexNet with minor adjustments.
+I used a CNN architecture similar to the AlexNet with minor adjustments.
 One of the challenges is to feed the network because probably your machine is not able to load the dataset entirely. 
-Further more it is not efficient at all. so I used a data generator with python to move only small batches of dataset to
+Furthermore, it is not efficient at all. so I used a data generator with python to move only small batches of the dataset to
 the ram each time. The accuracy was confidently more than %90 on both training and test sets.
 
 ## note
